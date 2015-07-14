@@ -167,7 +167,7 @@
     <create.dependency.reduced.pom>false</create.dependency.reduced.pom>
 
     <test.java.home>${java.home}</test.java.home>
-
+    <harmless.property>does-nothing</harmless.property>
     <!--
       Dependency scopes that can be overridden by enabling certain profiles. These profiles are
       declared in the projects that build assemblies.
